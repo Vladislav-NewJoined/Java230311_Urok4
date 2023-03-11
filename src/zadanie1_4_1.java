@@ -1,7 +1,12 @@
-public class zadanie1 {
+public class zadanie1_4_1 {
     // 1. Составьте программу, которая переводит переменную из byte в short
     public static void main(String[] args) {
+        // инфо здесь: https://habr.com/ru/post/225901/
+        //byte x = 10; //8 bit
+        //short у = 10; //16 bit
+        //int z = 10; //32 bit
+        //long q = 10L; //64 bit
 
-        System.out.println("Hello world!");
+        System.out.println("Ответ на Задание 1: Специальная программа не требуется, т.к. тип переменных short по\n размеру памяти больше, нежели byte (16 bit против 8 bit), \n т.е. 'сильнее' или 'мощнее', поэтому преобразование происходит автоматически, т.н. 'неявным' способом.");
     }
 }

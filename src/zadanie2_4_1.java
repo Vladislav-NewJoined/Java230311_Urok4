@@ -1,2 +1,12 @@
-package PACKAGE_NAME;public class zadanie2_4_1 {
+public class zadanie2_4_1 {
+    // 2. Составьте программу, которая переводит переменную из short в int
+    public static void main(String[] args) {
+        // инфо здесь: https://habr.com/ru/post/225901/
+        //byte x = 10; //8 bit
+        //short у = 10; //16 bit
+        //int z = 10; //32 bit
+        //long q = 10L; //64 bit
+
+        System.out.println("Ответ на Задание 2: Специальная программа не требуется, т.к. тип переменных int по размеру\n памяти больше, нежели short (32 bit против 16 bit), т.е. 'сильнее' или 'мощнее',\n поэтому преобразование происходит автоматически, т.н. 'неявным'способом.");
+    }
 }
